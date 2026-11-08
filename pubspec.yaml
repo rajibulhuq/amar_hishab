@@ -1,0 +1,28 @@
+name: amar_hishab
+description: আমার হিসাব - personal and household expense manager (offline).
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  shared_preferences: ^2.2.3
+  fl_chart: ^0.68.0
+  file_picker: ^8.0.7
+  pdf: ^3.11.0
+  printing: ^5.13.1
+  crypto: ^3.0.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon.png
+flutter:
+  uses-material-design: true
